@@ -1,0 +1,27 @@
+name: Push File to Repo
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  push-file:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: clone source
+        run: wget https://github.com/scrityos/Seal/releases/download/10.3.4/Seal.zip
+
+      - name: unzip
+        run: unzip Seal.zip
+       
+      - name: Commit and push
+        run: |
+          git config --local user.name "abhiram79"
+          git config --local user.email "abhiramv670@gmail.com"
+          git add .
+          git commit -m "source uploaded"
+          git push origin main
+
+          
