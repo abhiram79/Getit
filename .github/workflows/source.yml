@@ -1,8 +1,7 @@
 name: Push File to Repo
 
 on:
-  push:
-    branches: [main]
+  workflow_dispatch:
 
 jobs:
   push-file:
