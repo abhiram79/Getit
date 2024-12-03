@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: clone source
-        run: wget https://github.com/scrityos/Seal/releases/download/10.3.4/Seal.zip
+        run: wget
 
       - name: unzip
         run: unzip Seal.zip
@@ -18,7 +18,7 @@ jobs:
       - name: Commit and push
         run: |
           git config --local user.name "abhiram79"
-          git config --local user.email "abhiramv670@gmail.com"
+          git config --local user.email "email"
           git add .
           git commit -m "source uploaded"
           git push origin main
