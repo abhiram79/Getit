@@ -16,7 +16,7 @@
 
 <div align="center">
 <div>
-<img src="/.github/workflows/banner_getit.png" width="30%" />
+<img src="/.github/workflows/banner_getit.png" width="100%" height="100%" />
 </div>
 </div>
 
