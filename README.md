@@ -16,9 +16,7 @@
 
 <div align="center">
 <div>
-<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg" width="30%" />
-<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg" width="30%" />
-<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg" width="30%" />
+<img src="/.github/workflows/banner_getit.png" width="30%" />
 </div>
 </div>
 
