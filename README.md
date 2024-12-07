@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="" src="app/assets/logo.png"  width=160 height=160  align="center">
+<img width="" src=".github/workflows/logo.jpg"  width=160 height=160  align="center">
 
 # Getit
 
